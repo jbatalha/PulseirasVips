@@ -1,51 +1,36 @@
-<aside id="conteudo">
-        <h1>Destaques</h1>
-        <a href="galeria.php" title="Todas as Pulseiras">Listar Todos</a>
-        </header>
-     <div class="galeria-pulseiras">
+<?php
+include_once("conexao.php");
 
-          <div class="fluid">
-                <div class="col-sm-6 col-md-6">
+  $select = "SELECT * FROM Produtos ORDER BY RAND() LIMIT 4";
+  $qr = mysql_query($select);
+  $imagem = $qr['Prod_Imagem'];
+  $descricao = $qr['Prod_Descricao'];
+?>
+
+  <div id="conteudo" class="col-xs-12 col-sm-7 col-md-8">               
+    <div class="row">
+    <p><h2>Destaques<a class="navbar-toggle" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1 navbar-right " href="catalogo.php" title="Todas as Pulseiras">Listar Todos</a><a class="collapse navbar-collapse navbar-right" href="catalogo.php" title="Todas as Pulseiras">Listar Todos</a></h2></p>
+    </div>
+    <div class="galeria-pulseiras">
+    <?php
+      $i = 0;
+      while($ln = mysql_fetch_array($qr)){
+    ?>
+        <div class="pulseiras fluid" align="justify">
+                <div class="col-xs-11 col-sm-6 col-md-6">
                   <div class="thumbnail">
-                    <img src="imgs/P39.jpg" alt="P39">
-                    <div class="caption">
-                      <p>Mix preto e prata, com cristais pretos, pequenos cristais em prata e lilás, peças foscas e transparentes.</p>
+                    <img src="imgs/<?php echo $ln['Prod_Imagem']; ?>" alt="<?php echo $ln['Prod_Imagem']; ?>">
+                    <div class="caption" >
+                    <?php echo $ln['Prod_Codigo']."."; ?>
+                    <?php echo $ln['Prod_Descricao'];?> <br> R$ <?php echo $ln['Prod_Preco'].".";?>
                     </div>
                   </div>
                 </div>
-          </div>                      
-          <div class="fluid">
-                <div class="col-sm-6 col-md-6">
-                  <div class="thumbnail">
-                    <img src="imgs/P77.jpg" alt="P77">
-                    <div class="caption">
-                      <p>Mix azul turquesa e pérolas, detalhes em cristais laranja, transparentes e prateados.</p>
-                    </div>
-                  </div>
-                </div>
-          </div>
-          <div class="fluid">
-                <div class="col-sm-6 col-md-6">
-                  <div class="thumbnail">
-                    <img src="imgs/P61.jpg" alt="P61">
-                    <div class="caption">
-                      <p>Mix branco, preto e dourado. Detalhes feitos com cristais pretos e brancos, pérolas em duas tonalidades e pingentes de borboletas.</p>
-                      </div>
-                  </div>
-                </div>
-          </div>      
-         <div class="fluid">
-                <div class="col-sm-6 col-md-6">
-                  <div class="thumbnail">
-                    <img src="imgs/P56.jpg" alt="P56">
-                    <div class="caption">
-                      <p>Mix vermelho, preto e branco. Pérolas em duas tonalidades e dois tamanhos diferentes, cristais vermelhos e brancos. Detalhes dourados.</p>
-                      </div>
-                  </div>
-                </div>
-          </div>             
-                
-      </div>
-
-     
-</aside>
+          </div>        
+          <?php
+                  $i++;
+                } //fim while
+          
+          ?>
+    </div>               
+</div><!-- div conteudo --> 

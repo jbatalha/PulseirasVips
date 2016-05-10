@@ -1,0 +1,112 @@
+CREATE TABLE Usuario 
+(
+Us_Nome varchar(50) NOT NULL,
+Us_Sexo varchar(10) NOT NULL,
+Us_DataNasc datetime NOT NULL,
+Us_Tel varchar(15) NOT NULL,
+Us_Email varchar(50) NOT NULL,
+Us_Senha varchar(60) NOT NULL,
+Us_Endereco varchar(100) NOT NULL,
+Us_CEP varchar(15) NOT NULL,
+Us_Cidade varchar(50) NOT NULL,
+Us_Estado varchar(20) NOT NULL,
+Us_Tipo varchar(3) NOT NULL,
+
+PRIMARY KEY(Us_Email));
+
+CREATE TABLE Produtos 
+(
+Prod_Codigo varchar(10) NOT NULL,
+Prod_Descricao varchar(150),
+Prod_Preco float NOT NULL,
+Prod_Imagem varchar(100) NOT NULL, 
+PRIMARY KEY(Prod_Codigo));
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P21','Mix preto e azul, com cristais pretos, pequenos cristais em azul e pecas foscas e transparentes.',40,'P21.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P37','Mix branco e dourado, com perolas, pequenos cristais em amarelo, pecas foscas e transparentes.',40,'P37.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P38','Mix preto, amarelo e branco, com perolas e pecas foscas e transparentes.',40,'P38.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P40','Mix preto e prata, com cristais pretos, pequenos cristais em prata e amarelo, perolas e pecas foscas.',40,'P40.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P41','Mix preto, rosa e prata, com cristais pretos, pequenos cristais em prata, rosa e pecas foscas .',40,'P41.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P42','Mix branco, preto e dourado. Detalhes feitos com cristais pretos e brancos, perolas em duas tonalidades e pingentes de borboletas.',40,'P42.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P43','Mix branco, verde e amarelo , com pequenos cristais transparentes, pecas foscas, amarelas e verdes.',40,'P43.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P44','Mix branco e prata, com pecas pratas, brancas, azuis e perolas.',40,'P44.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P45','Mix preto, branco e azul, com pequenos cristais transparentes, pecas em branco, preto, azul turquesa e pecas foscas.',40,'P45.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P46','Mix preto, branco e azul, com cristais transparentes e pecas foscas brancas, pratas e azuis.',40,'P46.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P47','Mix preto e branco, com perolas, pecas pratas, pretas, foscas e transparentes.',40,'P47.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P48','Mix branco e amarelo, com perolas e cristais amarelos, pecas foscas e detalhes em dourado.',40,'P48.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P49','Mix branco e salmão, com cristais transparentes, perolas e pecas foscas e transparentes.',40,'P49.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P50','Mix branco, amarelo e lilas, com perolas em tamanhos variados, cristais foscos, pratas e pecas brancas, amarelas e lilas.',40,'P50.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P51','Mix amarelo e branco, com cristais transparentes, perolas e detalhes em dourado.',40,'P51.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P52','Mix preto e prata, com cristais pretos, pequenos cristais em prata e amarelo, pecas foscas e perolas.',40,'P52.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P53','Mix branco e laranja, com cristais laranjas, perolas em tamanhos variados e pecas foscas.',40,'P53.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P54','Mix preto, branco e laranja, com cristais laranjas, perolas, pecas foscas e pratas.',40,'P54.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P55','Mix amarelo, azul e branco e prata, com perolas em tamanhos variados, amarelas, azul turquesa e pretas, com cristais pretos e detalhes dourados.',40,'P55.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P57','Mix amarelo, branco e laranja, com cristais pretos, pequenos cristais em laranja, pecas foscas e detalhes em dourado.',40,'P57.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P58','Mix amarelo e prata, com cristais transparentes, pecas em prata, cristais azuis e perolas de tamanhos variados, amarelas e detalhes em dourado. ',40,'P58.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P59','Mix preto verde e amarelo, com cristais verdes e amarelos, perolas e pecas pretas, amarelas, verdes e foscas.',40,'P59.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P60','Mix preto, prata e lilas, com perolas em tamanhos variadas, em lilas, preto e amarelo, detalhes em dourado e pecas foscas.',40,'P60.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P62','Mix preto, branco e azul, com cristais transparentes, pequenos cristais em prata, pecas azuis, foscas e transparentes.',40,'P62.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P63','Mix preto, branco e dourado, com cristais transparentes, pecas em preto, branco, amarelo e dourado, perolas em tamanhos variados e pecas foscas.',40,'P63.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P64','Mix preto e rosa, com cristais pretos, pequenos cristais transparentes, perolas e pecas foscas.',40,'P64.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P70','Mix vermelho e branco, com cristais vermelhos, perolas em tamanhos variados, pecas foscas, cristais foscos em vermelho e branco.',40,'P70.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P72','Mix amarelo e marrom, com cristais marrons, perolas, pecas foscas e detalhes em dourado.',40,'P72.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P74','Mix preto, prata e azul, com cristais transparentes, pequenos cristais em prata e azul, pecas foscas e transparentes.',40,'P74.jpg');
+
+

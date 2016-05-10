@@ -1,0 +1,34 @@
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P39','Mix preto e prata, com cristais pretos, pequenos cristais em prata e lilas, pecas foscas e transparentes.',40,'P39.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P61','Mix branco, preto e dourado. Detalhes feitos com cristais pretos e brancos, perolas em duas tonalidades e pingentes de borboletas.',40,'P61.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P56','Mix vermelho, preto e branco. Perolas em duas tonalidades e dois tamanhos diferentes, cristais vermelhos e brancos. Detalhes dourados.',40,'P56.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P35','Mix roxo com perolas de dois tamanhos e tonalidades diferentes. Detalhes prateados, cinzas e transparentes.',40,'P35.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P65','Mix preto, branco e verde. Perolas , cristais foscos em verde e marrom, cristais transparentes e detalhes em dourado.',40,'P65.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P67','Mix branco, azul e prata. Perolas, pecas azuis turquesa, pratas e pecas foscas.',40,'P67.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P68','Mix preto e prata, cristais transparentes, pecas pretas, pratas e pecas foscas.',40,'P68.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P69','Mix azul, prata e branco. Perolas em duas tonalidades e dois tamanhos diferentes, pecas azuis turquesa e pecas foscas.',40,'P69.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P73','Mix preto e verde, cristais transparentes, verdes e pretos, pecas foscas, pratas e detalhes dourados.',40,'P73.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P75','Mix azul e branco. Perolas, pecas em azul turquesa, pecas foscas e detalhes em olho grego.',40,'P75.jpg');
+
+INSERT INTO Produtos (Prod_Codigo,Prod_Descricao,Prod_Preco,Prod_Imagem)
+VALUES ('P76','Mix verde e dourado. Perolas em duas tonalidades e dois tamanhos diferentes, cristais verdes e detalhes dourados.',40,'P76.jpg');
+
+

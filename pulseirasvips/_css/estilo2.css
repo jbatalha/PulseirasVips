@@ -1,0 +1,213 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+@font-face {
+	font-family: 'FonteLogo';
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+h3 {
+	text-align: center;
+}
+h5 {
+	text-align: justify;
+}
+p {
+	text-align: justify;
+	text-indent: 50px;
+}
+
+div#topo img#imgtopo {
+	margin: 0 auto;
+	width: 98%;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	border-top:2px #606060 solid;
+	padding: 2px;
+}
+
+div#interface {
+	background-color: #ffffff;
+	margin: 0px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+}
+div#interface div#sidebar {
+	
+	margin: -20px 0px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;		
+	background-color: #FAF0E6;
+	float: left;
+	
+}
+
+div#interface img#imgrod {
+	width: 100%;
+	position: relative;	
+	background-color: #ffffff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	margin-top: 0px;
+}
+
+div#conteudo {
+	position: relative;
+	display: block;
+	background-color: #F5DEB3;
+	padding: 2px;
+	margin: -20px 30px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+div#conteudo h1 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+
+}
+
+div#conteudo h2{
+	background-color: #606060;
+	font-size: 14pt;
+	color: #ffffff;
+	padding: 5px;
+	margin: 10px;
+
+}
+div#conteudo h2 a{
+	background-color: #606060;
+	font-size: 10pt;
+	color: #ffffff;
+	padding: 1px;
+	margin: 2px;
+}
+
+footer {
+	width: 100%;	
+	margin-top: 25px;
+	margin-bottom: 15px;
+	background-color: #f8f8f8;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+}
+footer#rodape div#linksImportantes ul {
+	list-style: none;
+}
+footer#rodape div#linksImportantes h4 {
+	text-align: justify;
+}
+/*Inicio formatação historia, dicas, como comprar, central de antendimento e duvidas frequentes*/
+
+div#dicas {
+	position: relative;
+	display: block;
+	background-color: #F5DEB3;
+	padding: 20px;
+	margin: 10px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+div#dicas h1 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color: #303030;
+	text-align: center;
+
+}
+
+div#dicas h2{
+	background-color: #606060;
+	font-size: 14pt;
+	color: #ffffff;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+
+}
+div#dicas h2 a{
+	background-color: #606060;
+	font-size: 10pt;
+	color: #ffffff;
+	padding: 1px;
+	margin: 2px;
+}
+
+/*Inicio formatação da galeria de Pulseiras*/
+
+.galeria-pulseiras {
+    background-color: #000;
+    border-left: 1px solid #292b2c;
+    border-right: 1px solid #292b2c;
+    border-bottom: 1px solid #292b2c;
+    margin: 5px;
+    padding: 20px 5px 10px;
+    overflow: hidden;
+}
+
+/*Fim formatação da galeria de Pulseiras*/
+
+/*Inicio formatação da ADM*/
+
+.galeria-pulseiras2 {
+    background-color: #000;
+    border-left: 1px solid #292b2c;
+    border-right: 1px solid #292b2c;
+    border-bottom: 1px solid #292b2c;
+    margin: auto;
+    padding: auto;
+   
+}
+/*Fim formatação da galeria do ADM*/
+/*Inicio Formatação do formularios Cadastrar*/
+div#interface form#cadastro p{
+	text-indent: -10px;
+}
+header#cabecalho-form h1 {
+	text-align: center;
+}
+
+input, textarea {
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 13pt;
+	background-color: rgba(255,255,255,.8);
+}
+
+input:hover, textarea:hover {
+	background-color: #dddddd;
+}
+legend {
+	color: #888888;
+	font-weight: bold;
+	font-size: 13pt;
+	font-family: sans-serif;
+}
+fieldset {
+	border-color: #cecece;
+	margin: 20px;
+}
+fieldset#sexo{
+	width: 150px;
+}
+fieldset#usuario {
+	background: url("../_imagens/icone-contato.png") no-repeat 90% 95%;
+}
+fieldset#endereco {
+	background: url("../_imagens/icone-endereco.png") no-repeat 90% 95%;
+}
+
+/*Fim Formatação do formularios fale conosco*/
+
+div.figura {
+  float: right;
+  width: 25%;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+div.figura p {
+  text-align: center
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+}
+img.escala {
+  width: 100%;
+}
